@@ -12,10 +12,10 @@ setup(
   keywords = ['color', 'gradient', 'text','strings','formatting','ansi'],   
   install_requires=[],
   classifiers=[
-    'Development Status :: 5 - Stable',
+    'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3.x'
+    'Programming Language :: Python :: 3.10'
   ],
 )
