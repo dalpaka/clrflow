@@ -34,6 +34,12 @@ This hasn't been tested yet, but clrflow runs best on Python 3.x, specifically 3
 pip install clrflow
 ```
 
+or 
+
+```sh
+npm i clrflow
+```
+
 ## License
 
 Clrflow was originally planned to be unmodifiable (obfuscated), but by doing so others wouldn't be able to help me with my own code.
