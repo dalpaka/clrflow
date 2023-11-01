@@ -1,12 +1,5 @@
-console.log('\x1b[36m Hi, devs!👋 \x1b[0m');
-
-
-
-
-
-
-
-
 function clrflow(value, foreground, background){
-    console.log(`\x1b[\x1b[`)
+    console.log(`\x1b[${foreground}${value}\x1b[${background}`)
 }
+
+clrflow("hi world", "36m", "0m")
