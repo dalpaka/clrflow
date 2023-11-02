@@ -1,7 +1,7 @@
 # clrflow
-##### a lifesaver for python developers
+##### a lifesaver for developers
 
-clrflow is a color module for python like there never before was
+clrflow is a color module originally for python like there never before was
 - preset colors
 - foreground and background options for every color function
 - other text formatting options like bold, italic, underline, etc.
@@ -10,7 +10,7 @@ clrflow is a color module for python like there never before was
 - space saving, predefined printing functions including text alignment, loading/progress bars, realistic/slow typing, printing to specific lines and columns, ...
 - more incoming
 
-## Features
+## Features in detail
 
 - create duocolored gradients with custom rgb values and automatic fade detection, layer, direction, ...
 - create multicolored gradient patterns (with same options as above) with live editable configurations without having to create a new pattern
@@ -24,18 +24,20 @@ Many more predefined features will be added in the future.
 
 ## Platforms
 
-It is yet unknown, but clrflow most likely only works on Windows. With feedback it should become universal in the future.
+It is not yet fully known, but clrflow works best on Linux and Windows. With feedback it should become universal in the future.
 
 ## Installation
 
-This hasn't been tested yet, but clrflow runs best on Python 3.x, specifically 3.10.4, in which it was originally written and tested.
-
+(This hasn't been really tested yet)
+-Python:
+Known: 3.10.4,3.12+
+Assumed: 3.x
 ```sh
 pip install clrflow
 ```
 
-or 
-
+-Javascript:
+Yet to come.
 ```sh
 npm i clrflow
 ```
@@ -43,4 +45,4 @@ npm i clrflow
 ## License
 
 Clrflow was originally planned to be unmodifiable (obfuscated), but by doing so others wouldn't be able to help me with my own code.
-Therefore clrflows license is the **MIT** license.
+Therefore clrflows is licensed under the **MIT** license.
