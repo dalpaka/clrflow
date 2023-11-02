@@ -29,14 +29,14 @@ It is not yet fully known, but clrflow works best on Linux and Windows. With fee
 ## Installation
 
 (This hasn't been really tested yet)
--Python:
+### Python:
 Known: 3.10.4,3.12+
 Assumed: 3.x
 ```sh
 pip install clrflow
 ```
 
--Javascript:
+### Javascript:
 Yet to come.
 ```sh
 npm i clrflow
