@@ -29,20 +29,13 @@ It is not yet fully known, but clrflow works best on Linux and Windows. With fee
 ## Installation
 
 (This hasn't been really tested yet)
-### Python:
+
 - Known: 3.10.4,3.12+
 - Assumed: 3.x
 ```sh
 pip install clrflow
 ```
 
-### Javascript:
-Yet to come.
-```sh
-npm i clrflow
-```
-
 ## License
 
-Clrflow was originally planned to be unmodifiable (obfuscated), but by doing so others wouldn't be able to help me with my own code.
-Therefore clrflows is licensed under the **MIT** license.
+Clrflow is licensed under the **MIT License**
