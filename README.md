@@ -1,9 +1,7 @@
 # clrflow
+##### a lifesaver for developers
 ###### ITS SPELLED COLORFLOW BUT WRITTEN WITHOUT THE FIRST 2 O´s
 
-
-
-##### a lifesaver for developers
 
 clrflow is a color module originally for python like there never before was
 - preset colors
