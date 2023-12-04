@@ -1,39 +1,31 @@
-# clrflow
-##### a lifesaver for developers
-###### ITS SPELLED COLORFLOW BUT WRITTEN WITHOUT THE FIRST 2 O´s
+# clrflow *(colorflow)*
 
+**clrflow** is a text formatting module originally for python with known features aswell as more. (including popular features included in colorama,pycolor,...)
+it is supposed to be an easy to use, helpful addition to a script for beauty.
 
-clrflow is a color module originally for python like there never before was
-- preset colors
-- foreground and background options for every color function
-- other text formatting options like bold, italic, underline, etc.
-- the ability to use custom rgb values for colors
-- duocolor gradient-applying aswell as multicolor pattern-applying functions (vertical, horizontal, foreground, background, ...)
-- space saving, predefined printing functions including text alignment, loading/progress bars, realistic/slow typing, printing to specific lines and columns, ...
-- more incoming
+## Features
 
-## Features in detail
-
-- create duocolored gradients with custom rgb values and automatic fade detection, layer, direction, ...
-- create multicolored gradient patterns (with same options as above) with live editable configurations without having to create a new pattern
-- make monocolored/formatted strings with, like above, custom rgb values and layers
-- align text (also colored) within the terminal horizontally to the left,center or right, and vertically to the top,center or bottom, aswell as sub-horizontally to the left, center or right
+- create duocolored gradients with custom rgb values and automatic lenght, layer, direction, ...
+- create multicolored gradient patterns (with same options as above) with runtime configurable parameters of a pre-existing instance (direction: horizontal -> vertical, layer: fore -> back, ...)
+- add color of any (predefined/custom) value aswell as formatting to strings with 2 simple functions
+- align text (including gradients) within the terminal horizontally and vertically, aswell as in place horizontally
 - create fully customizable loading/progress bars
 - print text to specific coordinates in the terminal
-- print text like its handwritten or character by character
+- print text with a delay between each character
+#### more incoming
 
-Many more predefined features will be added in the future.
+## Connections
+[Discord Server](https://discord.gg/H3qU27c5gz)
+[Github Profile](https://github.com/rver38)
 
 ## Platforms
 
 It is not yet fully known, but clrflow works best on Linux and Windows. With feedback it should become universal in the future.
 
-## Installation
+## Installation & compatibility (not fully tested)
 
-(This hasn't been really tested yet)
-
-- Known: 3.10.4,3.12+
-- Assumed: 3.x
+- Known: Python 3.10+
+  
 ```sh
 pip install clrflow
 ```
