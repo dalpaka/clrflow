@@ -25,7 +25,8 @@ It is not yet fully known, but clrflow works best on Linux and Windows. With fee
 ## Installation & compatibility (not fully tested)
 
 - Known: Python 3+
-- Future: Node-js 16.5+
+- In developement: Node-js 16.5+
+- In developement: clrflow.h(c/c++ module)
   
 ```sh
 pip install clrflow
